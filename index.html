@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model</title>
+    <link rel="stylesheet" href="./src/css/model.css">
+    <link rel="stylesheet" href="./src/css/dialog.css">
+</head>
+<body>
+
+
+    <!-- ПЕРШИЙ СПОСІБ -->
+
+
+     <button class="btn-open btn" data-modal-open>Відкрити</button>
+     <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn-close" data-modal-close>Закрити</button>
+            <p>...</p>
+        </div>
+     </div>
+
+
+    <!-- ДРУГИЙ СПОСІБ -->
+
+
+     <button class="btn-open btn" data-dialog-open>Відкрити діалогове вікно</button>
+     <dialog class="dialog" data-dialog>
+        <button class="btn-close" data-dialog-close>Закрити діалогове вікно</button>
+     </dialog>
+
+
+    <script src="./src/js/model.js"></script>
+    <script src="./src/js/dialog.js"></script>
+</body>
+</html>
